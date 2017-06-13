@@ -1,1 +1,8 @@
-theme: jekyll-theme-cayman
+title: GhandiNetwork
+description: 
+google_analytics: 
+show_downloads: false
+theme: jekyll-theme-slate
+
+gems:
+  - jekyll-mentions

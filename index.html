@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl-PL">
+<meta charset="UTF-8">
+
+<meta name="author" content="GhandiNetwork">
+<meta name="description" content="Your #1 website designer!">
+<meta name="keywords" content="Ghandi, GhandiNetwork, GhandiGlobalNetwork, GlobalNetwork, Network, GhandiPL, 7814">
+
+<title>GhandiNetwork</title>
+
+<link rel="stylesheet" id="init_GhandiNetwork-Template" href="//dl.dropbox.com/s/oze4ewxb68zvjoy/ghandinetwork-tumblr.css">
+<link rel="stylesheet" id="Bootstrap Addon" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" id="Font Awesome Addon" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+	
+	 $("#init_GhandiNetwork-Social").popover({
+        html : true, 
+		placement : 'bottom',
+		trigger : 'click',
+        content: function() {
+          return $('#GhandiOSpopContent').html();
+        }
+    });
+	
+});
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61817168-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div id="init_GhandiNetwork-Logo" class="mrg-top"></div>
+	<div href="#" id="init_GhandiNetwork-Social" class="mrg-top2"><i class="fa fa-facebook-square mrf-rgh"></i><i class="fa fa-twitter-square"></i></div>
+	<div id="GhandiOSpopContent" style="display: none;">
+		<div>
+			<strong>Follow GhandiNetwork</strong><br>for the latest news and updates<br><br>
+			<div class="row">
+				<section class="fb">
+					<div class="fb-like" data-href="https://facebook.com/ghandinetwork" data-width="120" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+					<a href="https://facebook.com/ghandinetwork" class="btn btn-facebook btn-block"><strong><i class="fa fa-facebook-square"></i> ghandinetwork</strong></a>
+				</section>
+				<section class="tw">
+					<a href="https://twitter.com/ghandinetwork" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @ghandinetwork</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<a href="https://twitter.com/ghandinetwork" class="btn btn-twitter btn-block"><strong><i class="fa fa-twitter-square"></i> ghandinetwork</strong></a>
+				</section>
+			</div>
+		</div>
+	</div>  
+</body>
+
+</html>
